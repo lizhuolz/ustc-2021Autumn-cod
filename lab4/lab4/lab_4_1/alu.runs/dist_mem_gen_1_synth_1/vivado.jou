@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Apr 11 20:48:48 2022
+# Process ID: 625766
+# Current directory: /home/ubuntu/桌面/new_lab/lab_4_1/alu.runs/dist_mem_gen_1_synth_1
+# Command line: vivado -log dist_mem_gen_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dist_mem_gen_1.tcl
+# Log file: /home/ubuntu/桌面/new_lab/lab_4_1/alu.runs/dist_mem_gen_1_synth_1/dist_mem_gen_1.vds
+# Journal file: /home/ubuntu/桌面/new_lab/lab_4_1/alu.runs/dist_mem_gen_1_synth_1/vivado.jou
+#-----------------------------------------------------------
+source dist_mem_gen_1.tcl -notrace

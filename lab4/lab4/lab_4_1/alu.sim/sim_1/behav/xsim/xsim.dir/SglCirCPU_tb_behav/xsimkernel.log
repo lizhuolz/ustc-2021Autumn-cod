@@ -1,0 +1,4 @@
+Running: xsim.dir/SglCirCPU_tb_behav/xsimk -simmode gui -wdb SglCirCPU_tb_behav.wdb -simrunnum 0 -socket 56073
+Design successfully loaded
+Design Loading Memory Usage: 35696 KB (Peak: 35752 KB)
+Design Loading CPU Usage: 30 ms

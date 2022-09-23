@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Apr 11 20:51:38 2022
+# Process ID: 626592
+# Current directory: /home/ubuntu/桌面/new_lab/lab_4_1/alu.runs/impl_1
+# Command line: vivado -log SglCirCPU.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source SglCirCPU.tcl -notrace
+# Log file: /home/ubuntu/桌面/new_lab/lab_4_1/alu.runs/impl_1/SglCirCPU.vdi
+# Journal file: /home/ubuntu/桌面/new_lab/lab_4_1/alu.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source SglCirCPU.tcl -notrace

@@ -1,0 +1,32 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/new_lab/lab_4_0/alu.srcs/sources_1/ip/dist_mem_gen_1/sim/dist_mem_gen_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/new_lab/lab_4_0/alu.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/ALUcontrol.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUcontrol
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/AddModule.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AddModule_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/ImmGenControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGenControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/ShiftLeft1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ShiftLeft1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/cpu_one_cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SglCirCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/mux2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/mux3_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/pdu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pdu_1cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/桌面/new_lab/lab_4_0/alu.srcs/sim_1/new/SglCirCPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SglCirCPU_tb

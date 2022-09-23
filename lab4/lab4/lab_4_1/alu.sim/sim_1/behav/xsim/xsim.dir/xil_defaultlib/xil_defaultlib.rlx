@@ -1,0 +1,22 @@
+0.6
+2019.1
+May 24 2019
+14:51:52
+/home/ubuntu/new_lab/lab_4_0/alu.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,1649515024,verilog,,/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/ALUcontrol.v,,dist_mem_gen_0,,,,,,,,
+/home/ubuntu/new_lab/lab_4_0/alu.srcs/sources_1/ip/dist_mem_gen_1/sim/dist_mem_gen_1.v,1649517454,verilog,,/home/ubuntu/new_lab/lab_4_0/alu.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,,dist_mem_gen_1,,,,,,,,
+/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/ALUcontrol.v,1623929422,verilog,,/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/AddModule.v,,ALUcontrol,,,,,,,,
+/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/AddModule.v,1623929422,verilog,,/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/ImmGenControl.v,,AddModule_32,,,,,,,,
+/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/ImmGenControl.v,1623929422,verilog,,/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/ShiftLeft1.v,,ImmGenControl,,,,,,,,
+/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/ShiftLeft1.v,1623929422,verilog,,/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/alu.v,,ShiftLeft1,,,,,,,,
+/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/alu.v,1623929422,verilog,,/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/control_unit.v,,alu,,,,,,,,
+/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/control_unit.v,1623929422,verilog,,/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/cpu.v,,control_unit,,,,,,,,
+/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/cpu.v,1623929422,verilog,,/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/cpu_one_cycle.v,,cpu,,,,,,,,
+/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/cpu_one_cycle.v,1649518464,verilog,,/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/mux2_1.v,,SglCirCPU,,,,,,,,
+/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/mux2_1.v,1623929422,verilog,,/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/mux3_1.v,,mux2_1,,,,,,,,
+/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/mux3_1.v,1623929422,verilog,,/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/pc.v,,mux3_1,,,,,,,,
+/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/pc.v,1623929422,verilog,,/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/pdu.v,,pc,,,,,,,,
+/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/pdu.v,1623929422,verilog,,/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/regfile.v,,pdu_1cycle,,,,,,,,
+/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/regfile.v,1623929422,verilog,,/home/ubuntu/桌面/new_lab/lab_4_0/alu.srcs/sim_1/new/SglCirCPU_tb.v,,register_file,,,,,,,,
+/home/ubuntu/桌面/new_lab/lab_4_0/alu.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+/home/ubuntu/桌面/new_lab/lab_4_0/alu.srcs/sim_1/new/SglCirCPU_tb.v,1649576591,verilog,,,,SglCirCPU_tb,,,,,,,,
+/home/ubuntu/桌面/new_lab/lab_4_0/alu.srcs/sim_1/new/SglCirCPU_tb2.v,1649575879,verilog,,,,SglCirCPU_tb2,,,,,,,,

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Mar 24 16:05:36 2022
+# Process ID: 82789
+# Current directory: /home/ubuntu/new_lab/fls_test/fls_test.runs/synth_1
+# Command line: vivado -log fls.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fls.tcl
+# Log file: /home/ubuntu/new_lab/fls_test/fls_test.runs/synth_1/fls.vds
+# Journal file: /home/ubuntu/new_lab/fls_test/fls_test.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source fls.tcl -notrace

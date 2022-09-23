@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../../new_lab/lab_4_0/alu.srcs/sources_1/ip/dist_mem_gen_1/sim/dist_mem_gen_1.v" \
+"../../../../../../../new_lab/lab_4_0/alu.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" \
+"../../../../../../last_lab/last_lab_4/Lab_4/src/ALUcontrol.v" \
+"../../../../../../last_lab/last_lab_4/Lab_4/src/AddModule.v" \
+"../../../../../../last_lab/last_lab_4/Lab_4/src/ImmGenControl.v" \
+"../../../../../../last_lab/last_lab_4/Lab_4/src/ShiftLeft1.v" \
+"../../../../../../last_lab/last_lab_4/Lab_4/src/alu.v" \
+"../../../../../../last_lab/last_lab_4/Lab_4/src/control_unit.v" \
+"../../../../../../last_lab/last_lab_4/Lab_4/src/cpu.v" \
+"../../../../../../last_lab/last_lab_4/Lab_4/src/cpu_one_cycle.v" \
+"../../../../../../last_lab/last_lab_4/Lab_4/src/mux2_1.v" \
+"../../../../../../last_lab/last_lab_4/Lab_4/src/mux3_1.v" \
+"../../../../../../last_lab/last_lab_4/Lab_4/src/pc.v" \
+"../../../../../../last_lab/last_lab_4/Lab_4/src/pdu.v" \
+"../../../../../../last_lab/last_lab_4/Lab_4/src/regfile.v" \
+"../../../../alu.srcs/sim_1/new/SglCirCPU_tb2.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

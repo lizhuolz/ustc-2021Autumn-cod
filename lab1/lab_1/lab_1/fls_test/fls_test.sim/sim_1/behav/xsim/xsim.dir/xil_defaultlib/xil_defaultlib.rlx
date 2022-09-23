@@ -1,0 +1,8 @@
+0.6
+2019.1
+May 24 2019
+14:51:52
+/home/ubuntu/桌面/new_lab/fls_test/fls_test.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+/home/ubuntu/桌面/new_lab/fls_test/fls_test.srcs/sim_1/new/fls_tb.v,1648118730,verilog,,,,fls_tb,,,,,,,,
+/home/ubuntu/桌面/new_lab/fls_test/fls_test.srcs/sources_1/new/alu.v,1617712583,verilog,,/home/ubuntu/桌面/new_lab/fls_test/fls_test.srcs/sources_1/new/fls.v,,alu,,,,,,,,
+/home/ubuntu/桌面/new_lab/fls_test/fls_test.srcs/sources_1/new/fls.v,1648118794,verilog,,/home/ubuntu/桌面/new_lab/fls_test/fls_test.srcs/sim_1/new/fls_tb.v,,fls,,,,,,,,

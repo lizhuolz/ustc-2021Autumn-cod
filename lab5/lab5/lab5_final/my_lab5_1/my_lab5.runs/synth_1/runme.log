@@ -1,0 +1,626 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 519042 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1679.477 ; gain = 153.719 ; free physical = 875 ; free virtual = 1329
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'cpu' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/cpu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'program_counter' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/program_counter.v:22]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'program_counter' (1#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/program_counter.v:22]
+INFO: [Synth 8-6157] synthesizing module 'add' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/add.v:23]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'add' (2#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/add.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/mux2.v:23]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (3#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/mux2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mem_inst' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.runs/synth_1/.Xil/Vivado-518997-VM2060-ustclz/realtime/mem_inst_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mem_inst' (4#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.runs/synth_1/.Xil/Vivado-518997-VM2060-ustclz/realtime/mem_inst_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'IF_ID' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/IF_ID.v:3]
+INFO: [Synth 8-6157] synthesizing module 'register' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/register.v:23]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'register' (5#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/register.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IF_ID' (6#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/IF_ID.v:3]
+INFO: [Synth 8-6157] synthesizing module 'control' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/control.v:23]
+	Parameter LW bound to: 7'b0000011 
+	Parameter ADDI bound to: 7'b0010011 
+	Parameter SW bound to: 7'b0100011 
+	Parameter ADD bound to: 7'b0110011 
+	Parameter BEQ bound to: 7'b1100011 
+	Parameter JAL bound to: 7'b1101111 
+INFO: [Synth 8-6155] done synthesizing module 'control' (7#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/control.v:23]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/regfile.v:23]
+	Parameter DWIDTH bound to: 32 - type: integer 
+	Parameter AWIDTH bound to: 5 - type: integer 
+	Parameter COUNT bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (8#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/regfile.v:23]
+INFO: [Synth 8-6157] synthesizing module 'imm_gen' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/imm_gen.v:23]
+	Parameter LW bound to: 7'b0000011 
+	Parameter ADDI bound to: 7'b0010011 
+	Parameter SW bound to: 7'b0100011 
+	Parameter ADD bound to: 7'b0110011 
+	Parameter BEQ bound to: 7'b1100011 
+	Parameter JAL bound to: 7'b1101111 
+INFO: [Synth 8-6155] done synthesizing module 'imm_gen' (9#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/imm_gen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ID_EX' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/ID_EX.v:3]
+INFO: [Synth 8-6157] synthesizing module 'register__parameterized0' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/register.v:23]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'register__parameterized0' (9#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/register.v:23]
+INFO: [Synth 8-6157] synthesizing module 'register__parameterized1' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/register.v:23]
+	Parameter WIDTH bound to: 7 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'register__parameterized1' (9#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/register.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ID_EX' (10#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/ID_EX.v:3]
+INFO: [Synth 8-6157] synthesizing module 'forwarding' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/forwarding.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'forwarding' (11#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/forwarding.v:23]
+INFO: [Synth 8-6157] synthesizing module 'hazard' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/hazard.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'hazard' (12#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/hazard.v:23]
+INFO: [Synth 8-6157] synthesizing module 'shift_left' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/shift_left.v:23]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'shift_left' (13#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/shift_left.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mux3' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/mux3.v:23]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux3' (14#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/mux3.v:23]
+INFO: [Synth 8-6157] synthesizing module 'alu' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/alu.v:23]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'alu' (15#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/alu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'EX_MEM' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/EX_MEM.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'EX_MEM' (16#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/EX_MEM.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mem_data' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.runs/synth_1/.Xil/Vivado-518997-VM2060-ustclz/realtime/mem_data_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mem_data' (17#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.runs/synth_1/.Xil/Vivado-518997-VM2060-ustclz/realtime/mem_data_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'MEM_WB' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/MEM_WB.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'MEM_WB' (18#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/MEM_WB.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'cpu' (19#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/cpu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'pdu' [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/pdu.v:23]
+WARNING: [Synth 8-6090] variable 'cnt_al_plr' is written by both blocking and non-blocking assignments, entire logic could be removed [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/pdu.v:177]
+INFO: [Synth 8-226] default block is never used [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/pdu.v:277]
+WARNING: [Synth 8-3936] Found unconnected internal register 'in_2r_reg' and it is trimmed from '5' to '2' bits. [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/pdu.v:97]
+INFO: [Synth 8-6155] done synthesizing module 'pdu' (20#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/pdu.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'top' (21#1) [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/top.v:23]
+WARNING: [Synth 8-3331] design hazard has unconnected port opcode[6]
+WARNING: [Synth 8-3331] design hazard has unconnected port opcode[5]
+WARNING: [Synth 8-3331] design hazard has unconnected port opcode[4]
+WARNING: [Synth 8-3331] design hazard has unconnected port opcode[3]
+WARNING: [Synth 8-3331] design hazard has unconnected port opcode[2]
+WARNING: [Synth 8-3331] design hazard has unconnected port opcode[1]
+WARNING: [Synth 8-3331] design hazard has unconnected port opcode[0]
+WARNING: [Synth 8-3331] design hazard has unconnected port wbm
+WARNING: [Synth 8-3331] design hazard has unconnected port wbw
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1733.227 ; gain = 207.469 ; free physical = 897 ; free virtual = 1351
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1736.195 ; gain = 210.438 ; free physical = 896 ; free virtual = 1349
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1736.195 ; gain = 210.438 ; free physical = 896 ; free virtual = 1349
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/ip/mem_inst/mem_inst/mem_inst_in_context.xdc] for cell 'cpu/mem_inst0'
+Finished Parsing XDC File [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/ip/mem_inst/mem_inst/mem_inst_in_context.xdc] for cell 'cpu/mem_inst0'
+Parsing XDC File [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/ip/mem_data/mem_data/mem_data_in_context.xdc] for cell 'cpu/mem_data0'
+Finished Parsing XDC File [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/ip/mem_data/mem_data/mem_data_in_context.xdc] for cell 'cpu/mem_data0'
+Parsing XDC File [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/constrs_1/imports/new/top_cons.xdc]
+Finished Parsing XDC File [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/constrs_1/imports/new/top_cons.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/constrs_1/imports/new/top_cons.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1921.820 ; gain = 0.000 ; free physical = 790 ; free virtual = 1244
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1921.820 ; gain = 0.000 ; free physical = 790 ; free virtual = 1244
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1921.820 ; gain = 396.062 ; free physical = 872 ; free virtual = 1326
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1921.820 ; gain = 396.062 ; free physical = 872 ; free virtual = 1326
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for cpu/mem_inst0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for cpu/mem_data0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1921.820 ; gain = 396.062 ; free physical = 872 ; free virtual = 1325
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "wb_sel" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/alu.v:33]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/ubuntu/new_lab/my_lab5_1/my_lab5.srcs/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/pdu.v:151]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1921.820 ; gain = 396.062 ; free physical = 862 ; free virtual = 1317
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 3     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	               32 Bit    Registers := 51    
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 8     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 11    
+	   5 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 8     
+	   6 Input     32 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   4 Input      5 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 8     
+	   7 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 4     
+	   7 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 42    
+	   4 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module program_counter 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module add 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module mux2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module register 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module control 
+Detailed RTL Component Info : 
++---Muxes : 
+	   7 Input      2 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 6     
+Module regfile 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 31    
+Module imm_gen 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input     32 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+Module register__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 1     
+Module register__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
+Module forwarding 
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input      2 Bit        Muxes := 2     
+Module hazard 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module mux3 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   6 Input     32 Bit        Muxes := 1     
+Module pdu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                5 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   4 Input      5 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 8     
+	   2 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 10    
+	   4 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "control/wb_sel" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[28]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[28]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[28]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[24]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[24]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[24]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[20]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[20]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[20]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[29]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[29]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[29]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[25]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[25]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[25]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[21]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[21]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[21]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[5]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[5]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[5]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[30]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[30]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[30]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[26]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[26]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[26]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[22]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[22]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[22]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[14]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[14]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[14]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[10]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[10]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[10]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[6]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[6]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[6]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[31]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[31]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[31]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[27]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[27]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[27]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[23]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[23]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[23]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[19]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[19]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[19]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[15]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[15]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[15]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[11]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[11]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[11]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[7]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[7]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[7]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[8]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[0]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_imm/out_reg[19]' (FDR) to 'cpu/ID_EX/reg_imm/out_reg[20]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_imm/out_reg[20]' (FDR) to 'cpu/ID_EX/reg_imm/out_reg[21]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_imm/out_reg[21]' (FDR) to 'cpu/ID_EX/reg_imm/out_reg[22]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_imm/out_reg[22]' (FDR) to 'cpu/ID_EX/reg_imm/out_reg[23]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_imm/out_reg[23]' (FDR) to 'cpu/ID_EX/reg_imm/out_reg[24]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_imm/out_reg[24]' (FDR) to 'cpu/ID_EX/reg_imm/out_reg[25]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_imm/out_reg[25]' (FDR) to 'cpu/ID_EX/reg_imm/out_reg[26]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_imm/out_reg[26]' (FDR) to 'cpu/ID_EX/reg_imm/out_reg[27]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_imm/out_reg[27]' (FDR) to 'cpu/ID_EX/reg_imm/out_reg[28]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_imm/out_reg[28]' (FDR) to 'cpu/ID_EX/reg_imm/out_reg[29]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_imm/out_reg[29]' (FDR) to 'cpu/ID_EX/reg_imm/out_reg[30]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_imm/out_reg[30]' (FDR) to 'cpu/ID_EX/reg_imm/out_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[1]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[2]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[2]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\ID_EX/reg_ctrl/out_reg[3] )
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[3]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[3]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[8]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[0]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[8]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[0]'
+INFO: [Synth 8-3886] merging instance 'cpu/ID_EX/reg_ctrl/out_reg[17]' (FDR) to 'cpu/ID_EX/reg_ctrl/out_reg[9]'
+INFO: [Synth 8-3886] merging instance 'cpu/EX_MEM/reg_ctrlm/out_reg[17]' (FDR) to 'cpu/EX_MEM/reg_ctrlm/out_reg[9]'
+INFO: [Synth 8-3886] merging instance 'cpu/MEM_WB/reg_ctrlw/out_reg[9]' (FDR) to 'cpu/MEM_WB/reg_ctrlw/out_reg[17]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/\regfile/regfile_reg[0][3] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:45 . Memory (MB): peak = 1921.820 ; gain = 396.062 ; free physical = 826 ; free virtual = 1284
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:45 ; elapsed = 00:00:52 . Memory (MB): peak = 1921.820 ; gain = 396.062 ; free physical = 710 ; free virtual = 1168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:00:55 . Memory (MB): peak = 1921.820 ; gain = 396.062 ; free physical = 700 ; free virtual = 1158
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 1921.820 ; gain = 396.062 ; free physical = 698 ; free virtual = 1156
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:52 ; elapsed = 00:00:59 . Memory (MB): peak = 1921.820 ; gain = 396.062 ; free physical = 698 ; free virtual = 1156
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:52 ; elapsed = 00:00:59 . Memory (MB): peak = 1921.820 ; gain = 396.062 ; free physical = 698 ; free virtual = 1156
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:52 ; elapsed = 00:01:00 . Memory (MB): peak = 1921.820 ; gain = 396.062 ; free physical = 697 ; free virtual = 1156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:52 ; elapsed = 00:01:00 . Memory (MB): peak = 1921.820 ; gain = 396.062 ; free physical = 697 ; free virtual = 1156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:52 ; elapsed = 00:01:00 . Memory (MB): peak = 1921.820 ; gain = 396.062 ; free physical = 697 ; free virtual = 1155
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:52 ; elapsed = 00:01:00 . Memory (MB): peak = 1921.820 ; gain = 396.062 ; free physical = 697 ; free virtual = 1155
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |mem_inst      |         1|
+|2     |mem_data      |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |mem_data |     1|
+|2     |mem_inst |     1|
+|3     |BUFG     |     2|
+|4     |CARRY4   |    37|
+|5     |LUT1     |     3|
+|6     |LUT2     |    64|
+|7     |LUT3     |    50|
+|8     |LUT4     |   101|
+|9     |LUT5     |   360|
+|10    |LUT6     |   923|
+|11    |MUXF7    |   403|
+|12    |MUXF8    |   192|
+|13    |FDCE     |    88|
+|14    |FDPE     |    19|
+|15    |FDRE     |  1364|
+|16    |IBUF     |    10|
+|17    |OBUF     |    15|
++------+---------+------+
+
+Report Instance Areas: 
++------+--------------------+----------------------------+------+
+|      |Instance            |Module                      |Cells |
++------+--------------------+----------------------------+------+
+|1     |top                 |                            |  3727|
+|2     |  cpu               |cpu                         |  3570|
+|3     |    EX_MEM          |EX_MEM                      |   152|
+|4     |      reg_bm        |register_13                 |    32|
+|5     |      reg_ctrlm     |register_14                 |    16|
+|6     |      reg_rdm       |register__parameterized0_15 |    11|
+|7     |      reg_y         |register_16                 |    93|
+|8     |    ID_EX           |ID_EX                       |   362|
+|9     |      reg_a         |register_5                  |    32|
+|10    |      reg_b         |register_6                  |    32|
+|11    |      reg_ctrl      |register_7                  |   120|
+|12    |      reg_imm       |register_8                  |    56|
+|13    |      reg_pc_e      |register_9                  |    95|
+|14    |      reg_rd        |register__parameterized0_10 |    13|
+|15    |      reg_rs1       |register__parameterized0_11 |     7|
+|16    |      reg_rs2       |register__parameterized0_12 |     7|
+|17    |    IF_ID           |IF_ID                       |   145|
+|18    |      reg_ir        |register_3                  |   113|
+|19    |      reg_pcd       |register_4                  |    32|
+|20    |    MEM_WB          |MEM_WB                      |   422|
+|21    |      reg_ctrlw     |register                    |   170|
+|22    |      reg_mdr       |register_1                  |    32|
+|23    |      reg_rdw       |register__parameterized0    |   119|
+|24    |      reg_ym        |register_2                  |   101|
+|25    |    add_pc          |add                         |     8|
+|26    |    add_pc_4        |add_0                       |     8|
+|27    |    alu             |alu                         |     8|
+|28    |    program_counter |program_counter             |    33|
+|29    |    regfile         |regfile                     |  2336|
+|30    |  pdu               |pdu                         |   130|
++------+--------------------+----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:52 ; elapsed = 00:01:00 . Memory (MB): peak = 1921.820 ; gain = 396.062 ; free physical = 697 ; free virtual = 1156
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:49 ; elapsed = 00:00:56 . Memory (MB): peak = 1921.820 ; gain = 210.438 ; free physical = 750 ; free virtual = 1208
+Synthesis Optimization Complete : Time (s): cpu = 00:00:52 ; elapsed = 00:01:00 . Memory (MB): peak = 1921.820 ; gain = 396.062 ; free physical = 765 ; free virtual = 1224
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 632 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1934.695 ; gain = 0.000 ; free physical = 699 ; free virtual = 1157
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+178 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:59 ; elapsed = 00:01:06 . Memory (MB): peak = 1934.695 ; gain = 559.227 ; free physical = 800 ; free virtual = 1258
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1934.695 ; gain = 0.000 ; free physical = 800 ; free virtual = 1258
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/ubuntu/new_lab/my_lab5_1/my_lab5.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat May  7 01:19:09 2022...

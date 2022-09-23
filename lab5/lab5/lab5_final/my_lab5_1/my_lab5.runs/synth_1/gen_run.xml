@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1651857424">
+  <File Type="VDS-TIMING-PB" Name="top_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="top_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="top.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="top_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="top_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="top_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="top.vds"/>
+  <File Type="REPORTS-TCL" Name="top_reports.tcl"/>
+  <File Type="PA-TCL" Name="top.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/EX_MEM.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/lab5_1.srcs/sources_1/new/EX_MEM.v"/>
+        <Attr Name="ImportTime" Val="1622625107"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/ID_EX.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/lab5_1.srcs/sources_1/new/ID_EX.v"/>
+        <Attr Name="ImportTime" Val="1622623019"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/IF_ID.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/lab5_1.srcs/sources_1/new/IF_ID.v"/>
+        <Attr Name="ImportTime" Val="1622634144"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/MEM_WB.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/lab5_1.srcs/sources_1/new/MEM_WB.v"/>
+        <Attr Name="ImportTime" Val="1622625283"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/add.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/lab5_1.srcs/sources_1/new/add.v"/>
+        <Attr Name="ImportTime" Val="1623045285"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/alu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/lab5_1.srcs/sources_1/new/alu.v"/>
+        <Attr Name="ImportTime" Val="1651761602"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/lab5_1.srcs/sources_1/new/control.v"/>
+        <Attr Name="ImportTime" Val="1622634296"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/cpu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/lab5_1.srcs/sources_1/new/cpu.v"/>
+        <Attr Name="ImportTime" Val="1651764733"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/forwarding.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/lab5_1.srcs/sources_1/new/forwarding.v"/>
+        <Attr Name="ImportTime" Val="1622644916"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/hazard.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/lab5_1.srcs/sources_1/new/hazard.v"/>
+        <Attr Name="ImportTime" Val="1622565268"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/imm_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/lab5_1.srcs/sources_1/new/imm_gen.v"/>
+        <Attr Name="ImportTime" Val="1622621509"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/mux2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/lab5_1.srcs/sources_1/new/mux2.v"/>
+        <Attr Name="ImportTime" Val="1622559897"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/mux3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/lab5_1.srcs/sources_1/new/mux3.v"/>
+        <Attr Name="ImportTime" Val="1622625319"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/pdu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/lab5_1.srcs/sources_1/new/pdu.v"/>
+        <Attr Name="ImportTime" Val="1622560051"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/program_counter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/lab5_1.srcs/sources_1/new/program_counter.v"/>
+        <Attr Name="ImportTime" Val="1651751463"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/regfile.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/lab5_1.srcs/sources_1/new/regfile.v"/>
+        <Attr Name="ImportTime" Val="1622621657"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/register.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/lab5_1.srcs/sources_1/new/register.v"/>
+        <Attr Name="ImportTime" Val="1651477961"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/shift_left.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/lab5_1.srcs/sources_1/new/shift_left.v"/>
+        <Attr Name="ImportTime" Val="1622560031"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/new_lab/lab5_1/lab5_1.srcs/sources_1/new/top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/lab5_1.srcs/sources_1/new/top.v"/>
+        <Attr Name="ImportTime" Val="1651762974"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/new_lab/lab5_1/hazard_test.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/hazard_test.coe"/>
+        <Attr Name="ImportTime" Val="1622619966"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/new_lab/lab5_1/D_MEM.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/D_MEM.coe"/>
+        <Attr Name="ImportTime" Val="1651569012"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/桌面/data_harzard_test.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../桌面/data_harzard_test.coe"/>
+        <Attr Name="ImportTime" Val="1651569719"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/桌面/test1.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../桌面/test1.coe"/>
+        <Attr Name="ImportTime" Val="1651570945"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ubuntu/桌面/hazard.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../桌面/hazard.coe"/>
+        <Attr Name="ImportTime" Val="1651574277"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../桌面/fib.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/new/top_cons.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab5_1/lab5_1.srcs/constrs_1/new/top_cons.xdc"/>
+        <Attr Name="ImportTime" Val="1622635151"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="mem_data"/>
+  <BlockFileSet Type="BlockSrcs" Name="mem_inst"/>
+</GenRun>

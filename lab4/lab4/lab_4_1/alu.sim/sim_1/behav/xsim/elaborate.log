@@ -1,0 +1,30 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /opt/vlab/vivado/Xilinx/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto 7759fd236d144d1b8c73e8310fd1346c --incr --debug typical --relax --mt 8 -L dist_mem_gen_v8_0_13 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot SglCirCPU_tb_behav xil_defaultlib.SglCirCPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'en' [/home/ubuntu/桌面/last_lab/last_lab_4/Lab_4/src/cpu.v:55]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pdu_1cycle
+Compiling module xil_defaultlib.pc
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_1
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.mux2_1
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.ALUcontrol
+Compiling module xil_defaultlib.ImmGenControl
+Compiling module xil_defaultlib.mux3_1
+Compiling module xil_defaultlib.AddModule_32
+Compiling module xil_defaultlib.ShiftLeft1
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.SglCirCPU
+Compiling module xil_defaultlib.SglCirCPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SglCirCPU_tb_behav

@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Code/Code2021/COD/lab1_full/lab1_test2/lab1_test2.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Code/Code2021/COD/lab1_full/lab1_test2/lab1_test2.srcs/sources_1/new/alu_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Code/Code2021/COD/lab1_full/lab1_test2/lab1_test2.srcs/sources_1/new/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Code/Code2021/COD/lab1_full/lab1_test2/lab1_test2.srcs/sources_1/new/regdef.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regdef
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Code/Code2021/COD/lab1_full/lab1_test2/lab1_test2.srcs/sim_1/new/alu_test_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_test_tb
